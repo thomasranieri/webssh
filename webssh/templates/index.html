@@ -42,9 +42,9 @@
     <div class="container form-container" style="display: none">
       <form id="connect" action="" method="post" enctype="multipart/form-data"{% if debug %} novalidate{% end %}>
         <div class="row">
-          <div class="col">
+          <div class="col" style="display:none">
             <label for="Hostname">Hostname</label>
-            <input class="form-control" type="text" id="hostname" name="hostname" value="localhost" required disabled>
+            <input class="form-control" type="text" id="hostname" name="hostname" value="localhost" required>
           </div>
           <div class="col" style="display:none">
             <label for="Port">Port</label>
